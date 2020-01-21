@@ -10,7 +10,7 @@
 <script>
     import Schema from 'async-validator'
     export default{
-        // inject: ['Kform'],
+        inject: ['KForm'],
         props:['label','prop'],
         data(){
             return{
